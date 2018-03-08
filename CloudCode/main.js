@@ -1,5 +1,6 @@
 var Stripe = require("stripe")(
-  "sk_test_U4ztvrYPxe7Ph3w0ii155rnw"
+ "sk_test_4jcgz5swf2BvRSDYLe63PNWV
+"
 );
 
 Parse.Cloud.define("purchaseItem", function(request, response) {
